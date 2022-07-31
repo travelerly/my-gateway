@@ -1,0 +1,27 @@
+server:
+  port: 9000
+
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: header_route
+#          uri: http://www.baidu.com
+#          predicates:
+#            - Header=X-Request-Id, \d+
+#        - id: header_route_showinfo
+#          uri: http://localhost:8000
+#          predicates:
+#            - Header=X-Request-color, \d+
+#          filters:
+#            - AddRequestHeader=X-Request-red, blue
+#            - AddRequestParameter=color, blue
+
+
+
+
+
+
+
+
+
